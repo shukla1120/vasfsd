@@ -1,0 +1,27 @@
+.btn{
+    background-color:aqua ;
+}
+button:hover{
+    background-color: blue;
+}
+button:active{
+    background-color: brown;
+}
+p:active{
+    text-decoration: underline;
+    font-weight: bold;
+}
+input[type="radio"]:checked +label{
+    color:red ;
+}
+p::first-line{
+    color:red ;
+    background-color: aqua;
+}
+p::first-letter{
+    font-weight: 900;
+    background-color: black;
+}
+p::selection{
+    color:darkgoldenrod
+}
